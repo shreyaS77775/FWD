@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "risklens"
+version = "0.1.0"
+description = "A quantitative risk analysis package"
+authors = ["Sookeyy-12 <thatonesuket@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+yfinance = "^0.2.65"
+streamlit = "^1.48.0"
+ipykernel = "^6.30.1"
+pandas = "^2.3.1"
+openpyxl = "^3.1.5"
+seaborn = "^0.13.2"
+plotly = "^6.3.0"
+nbformat = "^5.10.4"
+scikit-learn = "^1.3.0"
+scipy = "^1.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
